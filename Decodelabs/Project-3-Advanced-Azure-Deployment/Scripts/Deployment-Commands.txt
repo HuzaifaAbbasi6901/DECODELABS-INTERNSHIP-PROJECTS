@@ -1,1 +1,14 @@
+USE companydb;
+CREATE TABLE Interns (
+    Name VARCHAR(100),
+    Role VARCHAR(100),
+    Email VARCHAR(100)
+);
+INSERT INTO Interns (Name, Role, Email)
+VALUES
+('Ahmed', 'Cloud Intern', 'ahmed@test.com'),
+('Sara', 'DevOps Intern', 'sara@test.com'),
+('Ali', 'ML Intern', 'ali@test.com');
+SELECT * FROM Interns;
+SHOW DATABASES;
 
